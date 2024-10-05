@@ -17,3 +17,42 @@ function App() {
 }
 
 export default App
+
+
+
+
+// // class 1 - 3
+// function App() {
+//   let animalDetails = [
+//     {
+//       name: 'dog',
+//       breed: 'Labrador',
+//       age: 1.5,
+//     },
+//     {
+//       name: 'tiger',
+//       breed: 'indian tiger',
+//       age: 3,
+//     },
+//     {
+//       name: 'elephant',
+//       breed: 'African elephant',
+//       age: 10,
+//     },
+//     {
+//       name: 'lion',
+//       breed: 'African lion',
+//       age: 4,
+//     }
+//   ]
+//   let count = 0;
+//   let x = animalDetails.map((item,index)=>{
+//             return (
+//               <div key = {index}>
+//                 <h1>name : {item.name}</h1>
+//                 <h1>native : {item.breed}</h1>
+//                 <h1>status : {item.age}</h1>
+//               </div>
+//             )
+//   })
+// }
