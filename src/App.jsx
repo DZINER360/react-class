@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+// class 1 - 3
 function App() {
   let animalDetails = [
     {
